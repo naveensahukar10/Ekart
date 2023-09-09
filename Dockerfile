@@ -1,5 +1,7 @@
 FROM openjdk:8u151-jdk-alpine3.7
 
+MAINTAINER "naveenssahukar@gmail.com"
+
 EXPOSE 8070
 
 ENV APP_HOME /usr/src/app
