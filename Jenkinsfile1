@@ -11,11 +11,7 @@ pipeline {
     }
 
     stages {
-        stage('Git Checkout') {
-            steps {
-                git branch: 'main', url: 'https://github.com/naveensahukar10/Ekart.git'
-            }
-        }
+        
         
         stage('Code Compile') {
             steps {
